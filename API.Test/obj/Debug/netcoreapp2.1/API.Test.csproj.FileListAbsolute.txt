@@ -1,0 +1,17 @@
+C:\Users\agupta\Desktop\Tavisca\API\API.Test\bin\Debug\netcoreapp2.1\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\Users\agupta\Desktop\Tavisca\API\API.Test\bin\Debug\netcoreapp2.1\xunit.runner.reporters.netcoreapp10.dll
+C:\Users\agupta\Desktop\Tavisca\API\API.Test\bin\Debug\netcoreapp2.1\xunit.runner.utility.netcoreapp10.dll
+C:\Users\agupta\Desktop\Tavisca\API\API.Test\bin\Debug\netcoreapp2.1\API.Test.deps.json
+C:\Users\agupta\Desktop\Tavisca\API\API.Test\bin\Debug\netcoreapp2.1\API.Test.runtimeconfig.json
+C:\Users\agupta\Desktop\Tavisca\API\API.Test\bin\Debug\netcoreapp2.1\API.Test.runtimeconfig.dev.json
+C:\Users\agupta\Desktop\Tavisca\API\API.Test\bin\Debug\netcoreapp2.1\API.Test.dll
+C:\Users\agupta\Desktop\Tavisca\API\API.Test\bin\Debug\netcoreapp2.1\API.Test.pdb
+C:\Users\agupta\Desktop\Tavisca\API\API.Test\bin\Debug\netcoreapp2.1\API.dll
+C:\Users\agupta\Desktop\Tavisca\API\API.Test\bin\Debug\netcoreapp2.1\API.pdb
+C:\Users\agupta\Desktop\Tavisca\API\API.Test\obj\Debug\netcoreapp2.1\API.Test.csprojAssemblyReference.cache
+C:\Users\agupta\Desktop\Tavisca\API\API.Test\obj\Debug\netcoreapp2.1\API.Test.csproj.CoreCompileInputs.cache
+C:\Users\agupta\Desktop\Tavisca\API\API.Test\obj\Debug\netcoreapp2.1\API.Test.AssemblyInfoInputs.cache
+C:\Users\agupta\Desktop\Tavisca\API\API.Test\obj\Debug\netcoreapp2.1\API.Test.AssemblyInfo.cs
+C:\Users\agupta\Desktop\Tavisca\API\API.Test\obj\Debug\netcoreapp2.1\API.Test.csproj.CopyComplete
+C:\Users\agupta\Desktop\Tavisca\API\API.Test\obj\Debug\netcoreapp2.1\API.Test.dll
+C:\Users\agupta\Desktop\Tavisca\API\API.Test\obj\Debug\netcoreapp2.1\API.Test.pdb

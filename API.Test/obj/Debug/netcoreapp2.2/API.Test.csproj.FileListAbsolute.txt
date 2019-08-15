@@ -1,0 +1,4 @@
+C:\Users\agupta\Desktop\Tavisca\API\API.Test\obj\Debug\netcoreapp2.2\API.Test.csprojAssemblyReference.cache
+C:\Users\agupta\Desktop\Tavisca\API\API.Test\obj\Debug\netcoreapp2.2\API.Test.csproj.CoreCompileInputs.cache
+C:\Users\agupta\Desktop\Tavisca\API\API.Test\obj\Debug\netcoreapp2.2\API.Test.AssemblyInfoInputs.cache
+C:\Users\agupta\Desktop\Tavisca\API\API.Test\obj\Debug\netcoreapp2.2\API.Test.AssemblyInfo.cs
