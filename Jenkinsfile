@@ -16,8 +16,10 @@ pipeline {
         }
         stage('Deploy') {
             steps {
-                echo 'Deploying....'
-		        powershell 'dotnet API/bin/Release/netcoreapp2.1/API.dll'
+                echo 'Deploying using Docker....'
+                powershell 'docker build -t apiimage .'
+		        powershell 'docker run -p 8888:5555 apiimage'
+                powershell 'docker ps'
             }
         }
     }
