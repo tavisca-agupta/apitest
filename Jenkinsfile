@@ -38,7 +38,7 @@ pipeline {
         stage('Deploy') {
             steps {
                 echo 'Deploying using Docker....'
-                powershell "docker build -t ${DOCKER_IMAGE_NAME} ."
+                powershell "docker build -t ${DOCKER_UNAME}/${DOCKER_IMAGE_NAME} ."
                 powershell "docker login -u ${DOCKER_UNAME} -p ${DOCKER_PASS}"
                 powershell "docker push ${DOCKER_UNAME}/${DOCKER_IMAGE_NAME}"
             }
