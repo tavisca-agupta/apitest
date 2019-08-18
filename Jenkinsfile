@@ -16,7 +16,7 @@ pipeline {
             defaultValue: "amgupta321",
             description:"Docker User Name"
         )
-        Password(
+        password(
             name:"DOCKER_PASS",
             description:"Docker Password"
         )
