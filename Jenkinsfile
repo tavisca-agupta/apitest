@@ -8,7 +8,7 @@ pipeline {
         )
         string(
             name:"DOCKER_IMAGE_NAME",
-            defaultValue: "API",
+            defaultValue: "api",
             description:"Name of Docker Image"
         )
         string(
