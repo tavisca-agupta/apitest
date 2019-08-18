@@ -18,8 +18,7 @@ pipeline {
             steps {
                 echo 'Deploying using Docker....'
                 powershell 'docker build -t apiimage .'
-		        powershell 'docker run -p 8888:5555 apiimage'
-                powershell 'docker ps'
+		        powershell 'docker run --rm -p 8888:5555 apiimage'
             }
         }
     }

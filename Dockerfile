@@ -1,15 +1,18 @@
 FROM microsoft/dotnet:2.1-aspnetcore-runtime AS base
 WORKDIR /app
+COPY API/bin/Release/netcoreapp2.1/API.dll .
+ENTRYPOINT ["dotnet", "API.dll"]
+
 #EXPOSE 5555
 
-FROM microsoft/dotnet:2.1-sdk AS build
-WORKDIR .
-COPY . .
-RUN dotnet build "API.sln" -c Release -o /app
-RUN dotnet publish "API.sln" -c Release -o /app/publish
+#FROM microsoft/dotnet:2.1-sdk AS build
+#WORKDIR .
+#COPY . .
+#RUN dotnet build "API.sln" -c Release -o /app
+#RUN dotnet publish "API.sln" -c Release -o /app/publish
 
-WORKDIR /app/publish
-ENTRYPOINT ["dotnet", "API.dll"]
+#WORKDIR /app/publish
+#ENTRYPOINT ["dotnet", "API.dll"]
 
 #FROM build AS publish
 #RUN dotnet publish "API.sln" -c Release -o /app
