@@ -1,6 +1,6 @@
 FROM mcr.microsoft.com/dotnet/core/aspnet
 COPY . .
-WORKDIR API/bin/Debug/netcoreapp2.1/publish
+WORKDIR API/bin/Release/netcoreapp2.1/publish
 ENTRYPOINT ["dotnet", "API.dll"]
 
 #FROM microsoft/dotnet:2.1-aspnetcore-runtime AS base
