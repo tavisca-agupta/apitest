@@ -18,7 +18,7 @@ pipeline {
             steps {
                 echo 'Deploying using Docker....'
                 powershell 'docker build -t api .'
-		        powershell 'docker run --rm -it -p 8888:5555 api'
+		        powershell 'docker run --rm -p 8888:5555 api'
             }
         }
     }
