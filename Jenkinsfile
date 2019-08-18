@@ -8,13 +8,15 @@ pipeline {
         )
         string(
             name:"DOCKER_IMAGE_NAME",
+            defaultValue: "API",
             description:"Name of Docker Image"
         )
         string(
             name:"DOCKER_UNAME",
+            defaultValue: "amgupta321"
             description:"Docker User Name"
         )
-        string(
+        Password(
             name:"DOCKER_PASS",
             description:"Docker Password"
         )
@@ -36,9 +38,9 @@ pipeline {
         stage('Deploy') {
             steps {
                 echo 'Deploying using Docker....'
-                powershell 'docker build -t ${DOCKER_IMAGE_NAME} .'
-                powershell 'docker login -u ${DOCKER_UNAME} -p ${DOCKER_PASS}'
-                powershell 'docker push ${DOCKER_UNAME}/${PROJECT_NAME}'
+                powershell "docker build -t ${DOCKER_IMAGE_NAME} ."
+                powershell "docker login -u ${DOCKER_UNAME} -p ${DOCKER_PASS}"
+                powershell "docker push ${DOCKER_UNAME}/${PROJECT_NAME}"
             }
         }
     }
