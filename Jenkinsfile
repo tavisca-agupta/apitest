@@ -13,7 +13,7 @@ pipeline {
         )
         string(
             name:"DOCKER_UNAME",
-            defaultValue: "amgupta321"
+            defaultValue: "amgupta321",
             description:"Docker User Name"
         )
         Password(
