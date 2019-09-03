@@ -26,7 +26,7 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Starting SonarQube'
-                powershell 'C:\Users\agupta\Downloads\sonarScanner\MSBuild.SonarQube.Runner.exe begin /d:sonar.login=admin /d:sonar.password=admin /k:”API”'
+                powershell "C:/Users/agupta/Downloads/sonarScanner/MSBuild.SonarQube.Runner.exe begin /d:sonar.login=admin /d:sonar.password=admin /k:'API'"
                 echo 'Building..'
 		        powershell 'dotnet build -p:Configuration=release'
             }
@@ -36,7 +36,7 @@ pipeline {
                 echo 'Publishing..'
 		        powershell 'dotnet publish -p:Configuration=release'
                 echo 'SonarQube Ending'
-                powershell 'C:\Users\agupta\Downloads\sonarScanner\MSBuild.SonarQube.Runner.exe end /d:sonar.login=admin /d:sonar.password=admin'
+                powershell 'C:/Users/agupta/Downloads/sonarScanner/MSBuild.SonarQube.Runner.exe end /d:sonar.login=admin /d:sonar.password=admin'
 
             }
         }
