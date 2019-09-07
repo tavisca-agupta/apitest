@@ -14,6 +14,7 @@ namespace API
         [HttpGet]
         public ActionResult<string> Get()
         {
+            string a="TO test SonarQube";
             return "ABCD";
         }
 
